@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Helvetica ;
+}
+html,
+body {
+    height:100%;
+    width:100%;
+}
+
+body{
+    height: 3000px;
+}
+#inline-1{
+    background: maroon;
+    padding: 10px ;
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid rgb(169, 143, 143);
+}
+
+#inline-2{
+    background: blue;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box-1{
+       background: linear-gradient(to right,yellow,orange);
+    width: 300px;
+    height: 300px;
+    /* position: relative; */
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+
+    background: pink;
+    /* position: absolute; */
+    
+    top:0;
+    right:50%;
+}
+.fixed{
+    padding: 10px 20px;
+    background: maroon;
+    position: fixed;
+    width: 100%;
+    /* z-index: 10; */
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background: maroon;
+    margin: 50px;
+    display: flex;
+    gap: 10px;
+    /* row-gap: -20px; */
+    flex-wrap: wrap;
+    align-content: start; /* isse ham do rows ke bech me space ko manage kr sakte hain*/
+
+    /* justify-items: end  ; */
+    align-items: center;
+
+}
+.child{
+    background: yellow;
+    width: 80px;
+    height: 80px;
+}
