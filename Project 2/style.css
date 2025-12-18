@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,
+body {
+    height:100%;
+    width:100%;
+}
+
+#section-1{
+    width: 100%;
+    padding: 50px 90px;
+    padding-top: 120px ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 48%;
+    height: 100%;
+    /* background: red; */
+}
+#left h1{
+    font-size: 7vw;
+    font-weight: 400;
+    line-height: 6vw;
+}
+#right{
+    width: 30%;
+    height: 100%;
+    /* background: crimson; */
+    position: relative;
+    margin-right: 200px;
+    /* overflow: hidden; */
+}
+#right-top{
+    /* background: green; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 200px; */
+}
+#right-top h4{
+    font-size: 1.5rem; 
+    font-weight: 500;
+}
+#right-top h5 {
+    font-size:0.8rem;
+    font-weight: 500;
+     
+}
+#right-top h5 i:first-child{
+    margin-left: 10px;
+}
+#right-top h5 i {
+    color: gold;
+    margin-right: 2px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 90%;
+}
+button{
+    border: 2px solid ;
+    background: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px ;
+}
+.circle{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.circle:nth-child(1){
+    background: yellowgreen;
+    margin-right: -8px;
+}
+#left h2{
+    margin-top: 30px;
+}
+#left p{
+    width: 70%;
+    font-size: 0.8rem;
+}
+#round-circle{
+    background: #010527;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    right: -18% ;
+    border-radius: 50%;
+}
+#round-circle h5{
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+#rotated{
+    position: absolute;
+    left: 0;
+    bottom: 4%;
+    font-size: 2rem; 
+    font-weight: 500; 
+    left: -13%;
+    rotate: -90deg;
+    transform-origin:top left;
+}
