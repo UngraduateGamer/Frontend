@@ -1,0 +1,385 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Helvetica ;
+}
+html,
+body {
+    height:100%;
+    width:100%;
+}
+
+@media (max-width:600px) {
+ 
+body{
+    overflow-x:hidden;
+}
+nav h5{
+    font-size: 3vh;
+    display: block
+
+}
+
+
+#content{
+    /* background: crimson; */
+    /* height: calc(100% - 70px); */
+    height: fit-content;
+    width: 100%;
+    /* background: yellow; */
+    margin: 0 auto;
+    padding: 40px 20px   ;
+    /* padding-bottom: 40px; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Source Serif", serif !important;
+}
+#navpart1{
+    width: 0px;
+    margin-right: 20px;
+    display: flex;
+    /* background: yellow; */
+    align-items: center;
+    justify-content: space-between;
+}
+#navpart1 h4{
+    display: none;
+}
+#navpart2{
+    width: 70%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+#navpart2 button{
+    padding: 1vw 2vw;
+    font-weight: 600;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 30px;
+}
+#navpart2 button:first-child{
+    background: white;
+    border: 2px solid;
+    color: black;
+}
+nav img{
+    width: max-content !important;
+    height: 80% !important;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+
+
+
+#content p {
+    font-family: Shinchan;
+    /* background: #000; */
+    font-weight: normal;
+}
+#content h1{
+    font-size: 3.5vh;
+    font-weight: 100;
+    line-height: 0.9;
+    font-family: "Source Serif", serif !important;
+
+    text-align: center;
+}#content h4{
+    background: #f2b0ea;
+    padding: 0.8vh 2vh;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.5vh;
+    font-weight: 100;
+    font-family: "Source Serif", serif !important;
+
+
+
+}
+
+#content button{
+    padding:1.3vh 3vh;
+    font-weight: 400;
+    border: none;
+    font-size: 1.5vh;
+    font-family: Shinchan;
+    background: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#section1{
+    height: fit-content;
+    margin-bottom: 20px;
+}
+#section1-bottom{
+    height:300px;
+    /* background: #000; */
+    overflow-x: hidden !important;
+    padding: 0 0 ;
+    margin: 0 0 ;
+
+}
+
+
+ .elem{
+    width: 30vh;
+    margin-right: 10px;
+    
+   
+}
+.elem .overlay{
+    padding:3vh;
+}
+.elem .overlay p{
+    font-size: 1.5vh;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.elem .overlay div {
+    display: flex;
+    gap: 10px;
+    font-size: 1vh;
+    font-weight: 600;
+}
+.elem .overlay div span {
+    padding: 0.5vh 1vh;
+    margin-top: 5px;
+
+}
+
+
+.track{
+        overflow-x: hidden;
+        /* background: #000; */
+
+}
+@keyframes scroll {
+    from{
+        transform: translateX(0%);
+        
+    }
+    to{
+        transform: translateX(calc(-80%));
+
+    }
+}
+
+
+
+#section-2{
+    width: 100%;
+    /* height: 100%; */
+    /* margin-top: -100px; */
+    position: relative;
+    padding: 0 20px;
+    /* background: red; */
+}
+#section-2 h1{
+    font-size: 3.5vh;
+}
+.box{
+    width: 40vw;
+    height: 20vh;
+    margin: 10px;
+    
+
+}
+
+.box:hover .box-bottom{
+    bottom: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+.box-bottom i{
+    font-size: 2vh;
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.box-bottom h5{
+    font-size: 1.5vh;
+    color: white;
+}
+.box:hover{
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.314);
+}
+#section-2 button{
+    padding: 1vh 3vh;
+    font-size: 1.3vh;
+    margin: 0 auto;
+    font-weight: normal;
+    text-align: center  ;
+    position: relative;
+    left: 50%;
+    margin: 30px 0;
+    transform: translateX(-50%);
+    
+}
+
+
+
+
+
+.join{
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #FFDA79;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0vw;
+  padding:30px 0px;
+  font-family: "Source Serif", serif !important;
+  /* margin: 100px 0; */
+}
+.join h2{ 
+  font-size: 3vh;
+  line-height: 0;
+}
+.join p{
+  font-size: 1.3vh;
+  font-weight: 100;
+  color: #393939;
+  line-height: 1.5;
+  margin: 3vh 0;
+
+}
+.join .btns{
+  gap: 1.5vw;
+  display: flex;
+  justify-content: center;
+}
+.join .btns button{
+  width: 13vh;
+  height: 3vh;
+  font-size: 1vh;
+}
+.join h6{
+  font-size: 1.5vh;
+  font-weight: 300;
+  margin-top: 1.5vh;
+  color: #393939;
+  /* background: #000; */
+}
+
+/* ......Footer ....  */
+.footerScroller{
+  width: 100%;
+  height: 18vh;
+  padding: 1.5vw;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow: hidden;
+  /* background: #000; */
+}
+.wrapper{
+  width:fit-content ;
+  height: 100%;
+  display: flex;
+  /* background: #000; */
+  gap: 30px;
+  flex-shrink: 0;
+  animation-name: marquee;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes marquee {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(calc(-100% - 34px));
+  }
+}
+.wrapperContainer{
+  width: 20vh;
+  height: 100%;
+border-radius: 20px;
+overflow: hidden;
+margin: 10px 0;
+
+}
+.wrapperContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+footer{
+  width: 100%;
+  height: fit-content;
+  margin-top: 2vh;
+  padding: 2vh 3vh;
+  /* background: #000; */
+  display: flex;
+  font-family: Shinchan;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-part1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.footer-part1 img{
+  /* height: 50px; */
+  width:100px;
+  margin-top: -10px;
+}
+.footer-part1 .icons i{
+  font-size: 1.8vh;
+  
+}
+.footer-part1 div{
+  display: flex;
+  gap: 2.4vw;
+  font-weight: 600;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-part1 div a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.8vh;
+  line-height: 1;
+  font-weight: 500;
+}
+.footer-part2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-part2 div{
+  display: flex;
+  gap: 1.2vw;
+  color: #828282;
+  font-size: 1.8vh;
+  margin-top: 10px;
+}
+
+
+
+
+
+}
