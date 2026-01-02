@@ -80,7 +80,7 @@ nav h5{
     flex-direction: column;
     gap: 20px;
     font-weight: 100;
-    font-family: "Source Serif 4", serif !important;
+    font-family: "Source Serif", serif !important;
 }
 #navpart1{
     width: 30%;
@@ -126,6 +126,8 @@ nav img{
     margin: 0 auto;
     font-size: 1vw;
     font-weight: 100;
+    font-family: "Source Serif", serif !important;
+    
 
 
 }
@@ -140,6 +142,8 @@ nav img{
     font-weight: 100;
     line-height: 0.9;
     text-align: center;
+    font-family: "Source Serif", serif !important;
+    
 }
 #content button{
     padding:1vw 2vw;
